@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <head>
         <section>
             <div class="bg--topo ">
@@ -54,6 +55,25 @@
                     </div>
                 </div>
 
+
+                <!-- Top Navigation Menu -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <div class="topnav">
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <!-- Navigation links (hidden by default) -->
+                    <div id="myLinks">
+                        <a href="#news">Entrar</a>
+                        <a href="#news">Encontrar Loja</a>
+                        <a href="#contact">Wishlits</a>
+                        <a href="#about">Produtos</a>
+
+                    </div>
+
+                </div>
+
             </div>
         </section>
         <nav class="container-1200">
@@ -61,13 +81,22 @@
                 <li><a href="/.">Novidades</a></li>
                 <li><a href="/.">Feminino</a></li>
                 <li><a href="/.">Masculino</a></li>
-                <li><a href="/.">Paquetá Esportes</a></li>
+                <li><a href="/.">Esportes</a></li>
                 <li><a href="/.">Outlet</a></li>
                 <li><a href="/.">Cashback</a></li>
             </ul>
         </nav>
     </head>
-
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>
