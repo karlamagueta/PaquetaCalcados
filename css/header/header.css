@@ -1,0 +1,110 @@
+.bg--topo {
+  background: linear-gradient(92.46deg, #ff8a29 31.2%, #cf5d00 71.97%);
+  height: 50px;
+}
+
+.banner--topo {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px 0 50px;
+}
+
+.topo--nav {
+  display: flex;
+  gap: 3.75rem;
+}
+
+.topo--item {
+  display: flex;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+.topo--item img {
+  height: 20px;
+}
+
+
+/* Menu LOgo */
+
+.logo img {
+  height: 5.375rem;
+}
+
+.topo--item2 {
+  display: flex;
+  gap: 12px;
+  position: relative;
+}
+
+.topo--item2 img {
+  height: 28px;
+  width: auto;
+}
+
+.menu--logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.topo--itens {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.topo--item2 h3 {
+  padding-top: 5px;
+}
+
+.topo--item2:nth-child(1)::after, .topo--item2:nth-child(2)::after{
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: linear-gradient(133.49deg, #F99500 21.3%, #FFCD29 133.37%);
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  left: 17px;
+  z-index: 0;
+}
+
+.topo--item2:nth-child(1)::before{
+  content: '1';
+  color: var(--w);
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: 22px;
+  z-index: 1;
+}
+
+.topo--item2:nth-child(2)::before{
+  content: '2';
+  color: var(--w);
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: 22px;
+  z-index: 1;
+}
+
+/* Menu */
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  padding: 40px 20px 20px 10px;
+}
+
+
+@media (max-width:800px)
+
+
+
+

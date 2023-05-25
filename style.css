@@ -1,0 +1,26 @@
+/* Header */
+@import "./css/header/header.css";
+
+/* Utilidades */
+@import "./css/utilidades/cores.css";
+@import "./css/utilidades/tipografia.css";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "avenir";
+}
+
+a {
+  color: inherit;
+}
+
+.container-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+

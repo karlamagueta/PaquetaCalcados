@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "avenir";
+    src: local("Avenir LT Pro"),
+      url(AvenirNextLTPro-Regular.otf) format("opentype");
+  }
+  
+  @font-face {
+    font-family: "avenir-bold";
+    src: local("Avenir LT Pro"), url(AvenirNextLTPro-Bold.otf) format("opentype");
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+  
+  .poppins4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+  .poppins5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+  
+  .poppins6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+
+  .f14 {
+    font-size: .875rem;
+  }
+
+  .f18 {
+    font-size: 1.125rem;
+  }
+
+  .f80 {
+    font-size: 5rem;
+  }
