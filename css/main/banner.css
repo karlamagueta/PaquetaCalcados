@@ -40,6 +40,10 @@
   margin-top: 1.25rem;
 }
 
+.banner--content2{
+  display: none;
+}
+
 @media (max-width: 1500px) {
   .banner--hero img {
     margin-left: -200px;
@@ -96,17 +100,113 @@
   }
 }
 
-@media (max-content:600px) {
+@media (max-width: 600px) {
   .banner--hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    background-color: var(--w);
   }
-
   .banner--img {
     grid-column: 1;
   }
 
+  .banner--img img {
+    object-position: 50%;
+    background-color: var(--w);
+    object-fit: cover;
+    margin-left: 0;
+    object-position: 30%;
+    height: 180px;
+    width: 100%;
+  }
+
   .banner--content {
-    grid-column: 2;
+    display: none;
+  }
+  .banner--content2 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .banner--content2 h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .banner--content2 h1 span {
+    padding-top: -50px;
+    line-height: 2rem;
+
+  }
+
+  .banner--content2 h2 {
+    font-size: 1rem;
+    right: 20px;
+  }
+  .banner--content2 h2 span {
+    padding-top: 100px;
+    line-height: 3rem;
+    font-size: 1.75rem;
+  }
+
+  .banner--content2 .btn {
+    grid-column: 1 span 2;
+    margin-top: 10px;
+    justify-self: center;
+  }
+
+/*  .banner--content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 100%;
+align-items: baseline;
+    background-color: transparent;
+    right: 20px;
+    margin-top: 150px;
+    left: -60px;
+  }*/
+  .banner--content h1 {
+    font-size: 1.5rem;
+  }
+  .banner--content h1 span {
+    padding-top: -50px;
+    line-height: 2rem;
+    font-weight: 600;
+  }
+
+  .banner--content h2 {
+    margin-top: 20px;
+  }
+
+  .banner--content h2 span {
+    font-size: 1.75rem;
   }
 }
+
+/* ---------------InfoBox ---------------- */
+
+.infobox {
+  background: linear-gradient(92.46deg, #FF8A29 31.2%, #CF5D00 71.97%);
+  align-items: center;
+}
+
+.infobox ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.infobox ul li {
+  margin:  0 auto;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.infobox ul li span {
+  font-weight: 700;
+}
+
+.info--item {
+  max-width: 22ch;
+}
+
