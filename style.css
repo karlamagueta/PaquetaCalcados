@@ -1,10 +1,12 @@
 /* Header */
 @import "./css/header/header.css";
 
+/* Main */
+@import "./css/main/banner.css";
+
 /* Utilidades */
 @import "./css/utilidades/cores.css";
 @import "./css/utilidades/tipografia.css";
-
 
 * {
   margin: 0;
@@ -23,4 +25,14 @@ a {
   margin: 0 auto;
 }
 
-
+.btn {
+  display: block;
+  background: linear-gradient(122.71deg, #f99500 53.34%, #ffcd29 133.06%);
+  border-radius: 3px;
+  width: 12.5rem;
+  height: 2.875rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

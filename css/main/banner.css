@@ -1,0 +1,112 @@
+#banner {
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner--hero {
+  position: relative;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #d2d2d2;
+}
+
+.banner--hero img {
+  object-fit: cover;
+  width: auto;
+  display: block;
+  box-sizing: border-box;
+  object-fit: cover;
+  height: 520px;
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+}
+
+.banner--content {
+  display: grid;
+  position: absolute;
+  top: 4rem;
+  right: 50px;
+}
+
+.banner--content h1 span {
+  line-height: 90px;
+  padding-top: -80px;
+}
+
+.banner--content .btn {
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 1500px) {
+  .banner--hero img {
+    margin-left: -200px;
+    transition: 0.4s;
+  }
+}
+
+@media (max-width: 1100px) {
+  .banner--hero img {
+    margin-left: -300px;
+    transition: 0.4s;
+  }
+
+  .banner--content h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .banner--hero img {
+    margin-left: -100px;
+    transition: 0.4s;
+    height: 250px;
+    max-width: auto;
+  }
+
+  .banner--content {
+    padding: 0;
+    margin-left: 100px;
+    margin-top: -50px;
+  }
+
+  .banner--content h1 {
+    font-size: 2rem;
+  }
+  .banner--content h1 span {
+    padding-top: -50px;
+    line-height: 2.5rem;
+  }
+
+  .banner--content h2 {
+    font-size: 1rem;
+    right: 20px;
+  }
+  .banner--content h2 span {
+    padding-top: 100px;
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+
+  .banner--content .btn {
+    grid-column: 1 span 2;
+    margin-top: 10px;
+  }
+}
+
+@media (max-content:600px) {
+  .banner--hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .banner--img {
+    grid-column: 1;
+  }
+
+  .banner--content {
+    grid-column: 2;
+  }
+}

@@ -24,6 +24,12 @@
   height: 20px;
 }
 
+.topo--item h3:hover {
+  transition: .4s;
+  scale: 1.1;
+  color: var(--s2);
+}
+
 /* Menu LOgo */
 
 .logo img {
