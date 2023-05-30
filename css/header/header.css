@@ -176,6 +176,7 @@
 /*    overflow: hidden;*/
     background: linear-gradient(92.46deg, #ff8a29 31.2%, #cf5d00 71.97%);
     position: relative;
+    transition: .4s;
   }
 
   /* Style navigation menu links */
@@ -187,6 +188,7 @@
     text-decoration: none;
     font-size: 18px;
     grid-template-columns: 1fr;
+    transition: .4s;
   }
 
   /* Style the hamburger menu */
@@ -203,7 +205,7 @@
     background-color: var();
     color: var(--s2);
     font-weight: 600;
-    transition: 1.1;
+    transition: .4;
   }
 
   /* Style the active link (or home/logo) */

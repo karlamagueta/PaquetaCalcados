@@ -1,0 +1,50 @@
+#marcas {
+  margin-bottom: 7.5rem;
+  padding: 0 20px;
+}
+
+.marcas h2 {
+  margin-bottom: 5rem;
+}
+
+.marcas--img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1.5rem;
+}
+
+.marcas--img img {
+  max-height: 80px;
+  width: auto;
+  object-fit: scale-down;
+}
+
+@media (max-width: 700px) {
+  .marcas h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .marcas--img {
+    justify-content: center;
+  }
+  .marcas--img img {
+    max-width: 150px;
+    width: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .marcas--img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.25rem;
+  }
+
+  #marcas {
+    margin-bottom: 60px;
+  }
+}

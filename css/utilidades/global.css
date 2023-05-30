@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "avenir";
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+.container-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a.btn {
+  background: linear-gradient(122.71deg, #f99500 53.34%, #ffcd29 133.06%);
+  border-radius: 3px;
+  width: 12.5rem;
+  height: 2.875rem;
+  color: var(--w);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+
+}
+
+.btn:hover {
+  transition: 400ms;
+  background: linear-gradient(166.93deg, #ff8a29 16.88%, #e36803 89.66%);
+}
+
+
+.strong {
+  font: "montserrat";
+  font-weight: 600;
+}
+
+.upper {
+  text-transform: uppercase;
+}

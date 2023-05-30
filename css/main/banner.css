@@ -12,6 +12,13 @@
   background-color: #d2d2d2;
 }
 
+.banner--container {
+  max-width: 93.75rem;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+
 .banner--hero img {
   object-fit: cover;
   width: auto;
@@ -28,20 +35,37 @@
   display: grid;
   position: absolute;
   top: 4rem;
-  right: 50px;
+  right: 20px;
 }
 
 .banner--content h1 span {
-  line-height: 90px;
-  padding-top: -80px;
+  line-height: 60px;
+  margin-top: -120px;
 }
 
 .banner--content .btn {
   margin-top: 1.25rem;
 }
 
-.banner--content2{
+.banner--content2 {
   display: none;
+  z-index: -99;
+}
+
+.funciona a.btn {
+  background: linear-gradient(122.71deg, #f99500 53.34%, #ffcd29 133.06%);
+  border-radius: 3px;
+  width: 12.5rem;
+  height: 2.875rem;
+  color: var(--w);
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.funciona a.btn:hover {
+  background: blue;
+  color: #ffffff;
 }
 
 @media (max-width: 1500px) {
@@ -134,7 +158,6 @@
   .banner--content2 h1 span {
     padding-top: -50px;
     line-height: 2rem;
-
   }
 
   .banner--content2 h2 {
@@ -153,7 +176,7 @@
     justify-self: center;
   }
 
-/*  .banner--content {
+  /*  .banner--content {
     display: grid;
     grid-template-columns: 2fr 1fr;
     max-width: 100%;
@@ -184,8 +207,8 @@ align-items: baseline;
 /* ---------------InfoBox ---------------- */
 
 .infobox {
-  background: linear-gradient(92.46deg, #FF8A29 31.2%, #CF5D00 71.97%);
-  align-items: center;
+  background: linear-gradient(92.46deg, #ff8a29 31.2%, #cf5d00 71.97%);
+  align-items: left;
 }
 
 .infobox ul {
@@ -197,7 +220,7 @@ align-items: baseline;
 }
 
 .infobox ul li {
-  margin:  0 auto;
+  margin: 0 auto;
   text-transform: uppercase;
   align-items: center;
 }
@@ -207,6 +230,29 @@ align-items: baseline;
 }
 
 .info--item {
-  max-width: 22ch;
+  align-items: center;
+  padding: 10px 0px;
+  max-width: 25ch;
+  display: flex;
+  gap: 1.25rem;
 }
 
+@media (max-width: 75rem) {
+  .info--item {
+    gap: 10px;
+  }
+  .info--item p {
+    font-size: 0.625rem;
+    max-width: 23ch;
+  }
+
+  .info--item img {
+    height: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .infobox {
+    margin-top: 10px;
+  }
+}

@@ -8,8 +8,28 @@
     font-family: "avenir-bold";
     src: local("Avenir LT Pro"), url(AvenirNextLTPro-Bold.otf) format("opentype");
   }
+
+  @font-face {
+    font-family: "montserrat";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+  }
   
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+  .montserrat4 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+  }
+
+  .montserrat6 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+  }
+
+  .montserrat7 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+  }
   
   .poppins4 {
     font-family: 'Poppins', sans-serif;
@@ -34,9 +54,26 @@
     font-size: 1.125rem;
   }
 
+  .f20 {
+    font-size: 1.25rem;
+  }
+  .f22 {
+    font-size: 1.375rem;
+  }
+
   .f24 {
     font-size: 1.5rem;
   }
+
+  .f34 {
+    font-size: 2.125rem;
+    font-weight: 600;
+  }
+
+  .f48 {
+    font-size: 3rem;
+  }
+
 
   .f50 {
     font-size: 3.125rem;
