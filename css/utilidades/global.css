@@ -30,7 +30,6 @@ a.btn {
 }
 
 .btn:hover {
-  transition: 400ms;
   background: linear-gradient(166.93deg, #ff8a29 16.88%, #e36803 89.66%);
 }
 
